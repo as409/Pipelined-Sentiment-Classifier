@@ -122,7 +122,7 @@ class TwitterHybridClassifier(object):
 
         tweet_tokens = pre_process([tweet_text])
         
-        '''print(tweet_tokens_list)
+        print(tweet_tokens_list)
 
             # 1. Rule-based classifier. Look for emoticons basically
         positive_score,negative_score = self.rules_classifier.classify(tweet_tokens)
@@ -167,28 +167,6 @@ class TwitterHybridClassifier(object):
 
         predictions.append(sentiment)
 
-        '''print("\n")
-        print('individual scores are as follows : \n')
-
-
-        print("emoticon classifier:")
-        positive_score,negative_score = self.rules_classifier.classify(tweet_tokens)
-        print('Positive: '+str(positive_score) + '\t' + 'Negative: '+str(negative_score) + '\t')
-
-
-
-        print("\n")
-        print('lexicon classifier:')
-        positive_score, negative_score = self.lexicon_classifier.classify(tweet_tokens)
-        lexicon_score = positive_score + negative_score
-        print('Positive: '+str(positive_score) + '\t' +'Negative: '+ str(negative_score) + '\t')
-
-        print("\n")
-        print('machine learning classifier:')
-        result = self.ml_classifier.decision_function(tweet_tokens)
-        print('Positive: '+str(result['positive']) + '\t' +'Negative: '+ str(result['negative']) + '\t'+ ' Neutral: '+str(result['nuetral']) + '\t')
-
-        print('\n Final output :')'''
 
             
 
@@ -205,13 +183,5 @@ class TwitterHybridClassifier(object):
 
 
 
-
-'''text='john is an idiot and a little bit stupid'
-
-
-
-myobjectq=TwitterHybridClassifier(trainset)
-
-print(myobjectq.classify('john is an idiot and a little bit stupid :('))'''
 
 
