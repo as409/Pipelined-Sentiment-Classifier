@@ -18,7 +18,7 @@ Liu's Opinion Lexicon http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html
 
 THe final output of my code would be the sentiment(i.e. 'positive', 'negative' or 'neutral') predicted by my classifer along with the accuracy and confusion matrix.
 
-The datasets I have used in my codes are of SemEval 2014 which I cannot provide because of legal reasons.
+The datasets I have used in my codes are of SemEval 2014 which I cannot provide because of legal reasons. You can contact the organisers of the SemEval for the datasets.
 
 Instead of using the NLTK tokenizer I have used the tokenizer built by Brendan O'Connor(http://github.com/brendano/tweetmotif)
 
