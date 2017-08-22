@@ -7,10 +7,11 @@ These python scripts provide the TwitterClassifier I used for my B.tech final ye
 
 ## Dependencies :
 - python 2.7 or a python 3.4 versions
-- Natural Language Toolkit (NLTK - http://www.nltk.org/)
-- scikit-learn (Machine Learning in Python - http://scikit-learn.org/stable/)
+- Natural Language Toolkit ( NLTK - http://www.nltk.org/ ) 
+- scikit-learn ( Machine Learning in Python - http://scikit-learn.org/stable/ )
+- ark_twitter_nlp Pos tagger ( http://www.cs.cmu.edu/~ark/TweetNLP/ )
 
-I also use ark_twitter_nlp as the **Part-of-Speech tagger** as well as the **NLTK pos tagger**. 
+I also used **ark_twitter_nlp Pos tagger** as well as the **NLTK pos tagger**. 
 
 The lexicon this library uses are:
 
